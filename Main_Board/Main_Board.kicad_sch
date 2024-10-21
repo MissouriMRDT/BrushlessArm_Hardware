@@ -286,236 +286,6 @@
 				)
 			)
 		)
-		(symbol "Interface_CAN_LIN:SN65HVD234"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "SN65HVD234"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf"
-				(at -2.54 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAN Bus Transceiver, 3.3V, 1Mbps, Enable feature, SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "can transeiver ti"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SN65HVD234_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SN65HVD234_1_1"
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "Rs"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MRDT_Shields:Teensy4.1_DEV-16771"
 			(pin_names
 				(offset 1.016)
@@ -2175,6 +1945,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 123.19) (xy 137.16 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c2ccb7-4c02-4489-92cf-309512913ddb")
+	)
+	(wire
+		(pts
 			(xy 71.12 29.21) (xy 71.12 31.75)
 		)
 		(stroke
@@ -2192,6 +1972,16 @@
 			(type default)
 		)
 		(uuid "1ade1a43-4727-4dfc-846d-ce61cf0f3373")
+	)
+	(wire
+		(pts
+			(xy 92.71 41.91) (xy 92.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3544f365-faf5-4df7-9732-f4468ff11ffd")
 	)
 	(polyline
 		(pts
@@ -2216,6 +2006,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 127) (xy 142.24 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5409442e-b86b-45ef-961e-0f8adef9e7a1")
+	)
+	(wire
+		(pts
 			(xy 16.51 29.21) (xy 16.51 31.75)
 		)
 		(stroke
@@ -2223,6 +2023,16 @@
 			(type default)
 		)
 		(uuid "6ba1de56-89ec-4f62-846f-f9d29269397b")
+	)
+	(wire
+		(pts
+			(xy 96.52 41.91) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d580ef-893c-4101-8b57-05c72bee2e7f")
 	)
 	(wire
 		(pts
@@ -2305,6 +2115,28 @@
 		)
 		(uuid "f0778815-7858-4cb1-94b4-c6dbdd3d2237")
 	)
+	(label "Teensy + CAN Transciever"
+		(at 92.71 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a8557c6-6252-49dd-952a-66b2f2ea4f0f")
+		(property "Netclass" "Teensy + CAN Transciever"
+			(at 92.71 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12v to 3.3v Buck Converter"
 		(shape passive)
 		(at 15.24 17.78 0)
@@ -2324,6 +2156,72 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 92.71 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14713ded-b415-4b5a-86c3-b6eec8c25101")
+		(property "Reference" "#PWR04"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 92.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbb422af-1ff2-4377-983e-64a8be881c5e")
+		)
+		(instances
+			(project ""
+				(path "/7e76cf6a-e9a4-4ef3-bf05-f0b14a5efcef"
+					(reference "#PWR04")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2399,7 +2297,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Shields:Teensy4.1_DEV-16771")
-		(at 148.59 85.09 0)
+		(at 116.84 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2408,7 +2306,7 @@
 		(fields_autoplaced yes)
 		(uuid "31410e5d-fe36-436d-ae04-96a9aeba510f")
 		(property "Reference" "U2"
-			(at 148.59 29.21 0)
+			(at 116.84 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2314,7 @@
 			)
 		)
 		(property "Value" "Teensy4.1_DEV-16771"
-			(at 148.59 31.75 0)
+			(at 116.84 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2322,7 @@
 			)
 		)
 		(property "Footprint" "MODULE_DEV-16771"
-			(at 201.93 92.71 0)
+			(at 170.18 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 85.09 0)
+			(at 116.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 85.09 0)
+			(at 116.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2351,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 201.93 99.06 0)
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2361,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.07mm"
-			(at 208.28 104.14 0)
+			(at 176.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2371,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SparkFun Electronics"
-			(at 207.01 107.95 0)
+			(at 175.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2381,7 @@
 			)
 		)
 		(property "PARTREV" "4.1"
-			(at 140.97 140.97 0)
+			(at 109.22 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,94 +2866,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:SN65HVD234")
-		(at 223.52 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b246ddb-75da-464c-b86c-4fa1eaa80ba1")
-		(property "Reference" "U3"
-			(at 225.7141 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN65HVD234"
-			(at 225.7141 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 223.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf"
-			(at 220.98 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAN Bus Transceiver, 3.3V, 1Mbps, Enable feature, SOIC-8"
-			(at 223.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "c2550a78-7533-46d8-91bb-136f104a25fb")
-		)
-		(pin "1"
-			(uuid "ba1c0ab4-3e74-441b-8ce1-d3416bfc3a91")
-		)
-		(pin "3"
-			(uuid "bf9751d8-d43c-47b0-9157-b67e988bf58a")
-		)
-		(pin "5"
-			(uuid "b76cb30d-ba14-44da-a748-92b0770005bf")
-		)
-		(pin "7"
-			(uuid "d2281558-fae3-468b-a04c-4b554a73a388")
-		)
-		(pin "4"
-			(uuid "8f0e5ffd-ce62-48f9-94ae-2b06e16860f2")
-		)
-		(pin "2"
-			(uuid "f3b40d66-bfec-4446-abf6-383b88756e26")
-		)
-		(pin "6"
-			(uuid "cb933476-398b-447b-a1eb-9fcfb78b6a40")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/7e76cf6a-e9a4-4ef3-bf05-f0b14a5efcef"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 16.51 29.21 0)
 		(unit 1)
@@ -3259,6 +3069,72 @@
 			(project "Main_Board"
 				(path "/7e76cf6a-e9a4-4ef3-bf05-f0b14a5efcef"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3413006-6be0-4ef7-bc48-13c03b5f9b58")
+		(property "Reference" "#PWR05"
+			(at 142.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f56d94e1-ae18-42fe-bdf6-8c2b3a69fcf2")
+		)
+		(instances
+			(project ""
+				(path "/7e76cf6a-e9a4-4ef3-bf05-f0b14a5efcef"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
