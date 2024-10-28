@@ -2856,7 +2856,7 @@
 			)
 		)
 	)
-	(label "Can Transceivers"
+	(label "UART Transceiver"
 		(at 58.42 55.88 180)
 		(fields_autoplaced yes)
 		(effects
