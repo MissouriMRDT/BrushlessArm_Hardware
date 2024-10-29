@@ -267,8 +267,11 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Teensy": "Teensy + CAN Transciever",
+      "/Teensy (Mircro-controller)": "Teensy + CAN Transciever",
       "/Teensy + CAN Transciever": "Teensy + CAN Transciever",
-      "/Teensy + Can Outputs": "Teensy + CAN Transciever"
+      "/Teensy + Can Outputs": "Teensy + CAN Transciever",
+      "/Teensy With UART": "Teensy + CAN Transciever"
     },
     "netclass_patterns": []
   },
